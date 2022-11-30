@@ -1,0 +1,289 @@
+{
+	"info": {
+		"_postman_id": "d548270d-3669-45b5-a7d5-b39045638a34",
+		"name": "Capstone Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10143929"
+	},
+	"item": [
+		{
+			"name": "Author Get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://capstone-harish-mohan-app.azurewebsites.net/author/4",
+					"protocol": "https",
+					"host": [
+						"capstone-harish-mohan-app",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"author",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Author Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://capstone-harish-mohan-app.azurewebsites.net/author/2",
+					"protocol": "https",
+					"host": [
+						"capstone-harish-mohan-app",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"author",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Author Post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\": \"Harish\",\r\n    \"lastName\": \"Mohan\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://capstone-harish-mohan-app.azurewebsites.net/author/",
+					"protocol": "https",
+					"host": [
+						"capstone-harish-mohan-app",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"author",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Author Put",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\": \"Harish\",\r\n    \"lastName\": \"M\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://capstone-harish-mohan-app.azurewebsites.net/author/3",
+					"protocol": "https",
+					"host": [
+						"capstone-harish-mohan-app",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"author",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Category Get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://capstone-harish-mohan-app.azurewebsites.net/category",
+					"protocol": "https",
+					"host": [
+						"capstone-harish-mohan-app",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"category"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Category Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://capstone-harish-mohan-app.azurewebsites.net/category/1",
+					"protocol": "https",
+					"host": [
+						"capstone-harish-mohan-app",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"category",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Category Post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Harish Mohan\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://capstone-harish-mohan-app.azurewebsites.net/category",
+					"protocol": "https",
+					"host": [
+						"capstone-harish-mohan-app",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"category"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Category Put",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Harish\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://capstone-harish-mohan-app.azurewebsites.net/category/1",
+					"protocol": "https",
+					"host": [
+						"capstone-harish-mohan-app",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"category",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lab Get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://capstone-harish-mohan-app.azurewebsites.net/lab",
+					"protocol": "https",
+					"host": [
+						"capstone-harish-mohan-app",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"lab"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lab Delete",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Lab Post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"name\": \"Harish\",\r\n    \"description\": \"Capstone\",\r\n    \"category\": {},\r\n    \"author\": {}\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://capstone-harish-mohan-app.azurewebsites.net/lab",
+					"protocol": "https",
+					"host": [
+						"capstone-harish-mohan-app",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"lab"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lab Put",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://capstone-harish-mohan-app.azurewebsites.net/",
+					"protocol": "https",
+					"host": [
+						"capstone-harish-mohan-app",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
